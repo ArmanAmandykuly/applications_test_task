@@ -1,0 +1,43 @@
+# --- Frontend (Node / React / Vite) ---
+node_modules/
+/frontend/node_modules/
+/frontend/frontend/node_modules/
+dist/
+/frontend/dist/
+.eslintcache
+*.local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Backend (Python / FastAPI) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+.venv/
+ENV/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Databases (SQLite local instances) ---
+*.db
+*.sqlite3
+*.sqlite
+
+# --- Operating System / Editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
